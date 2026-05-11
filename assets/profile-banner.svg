@@ -1,0 +1,47 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pink and blue gradient GitHub profile banner</title>
+  <desc id="desc">A soft pink to blue gradient banner with dreamy bubbles and sparkles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="84" y1="26" x2="1123" y2="314" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFC8DD"/>
+      <stop offset="48%" stop-color="#D7C2F5"/>
+      <stop offset="100%" stop-color="#A2D2FF"/>
+    </linearGradient>
+    <radialGradient id="pinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(252 96) rotate(90) scale(142 190)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 94) rotate(90) scale(155 210)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-120" y="-120" width="1440" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="40" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity="0.75">
+    <ellipse cx="254" cy="102" rx="166" ry="108" fill="url(#pinkGlow)"/>
+    <ellipse cx="951" cy="101" rx="180" ry="112" fill="url(#blueGlow)"/>
+  </g>
+  <circle cx="178" cy="223" r="53" fill="#FFFFFF" fill-opacity="0.18"/>
+  <circle cx="1030" cy="232" r="62" fill="#FFFFFF" fill-opacity="0.18"/>
+  <circle cx="108" cy="87" r="18" fill="#FFFFFF" fill-opacity="0.24"/>
+  <circle cx="1091" cy="96" r="20" fill="#FFFFFF" fill-opacity="0.24"/>
+  <circle cx="878" cy="60" r="11" fill="#FFFFFF" fill-opacity="0.28"/>
+  <circle cx="332" cy="259" r="12" fill="#FFFFFF" fill-opacity="0.22"/>
+  <path d="M0 244C103 216 188 224 287 240C369 252 449 277 531 278C634 279 706 237 810 225C948 209 1068 245 1200 261V320H0V244Z" fill="#FFFFFF" fill-opacity="0.18"/>
+  <path d="M0 269C109 249 216 264 319 276C430 289 543 293 654 286C780 278 893 251 1019 248C1080 246 1139 251 1200 260V320H0V269Z" fill="#FFFFFF" fill-opacity="0.14"/>
+  <g fill="#FFFFFF" fill-opacity="0.95">
+    <path d="M209 72L214 83L225 88L214 93L209 104L204 93L193 88L204 83L209 72Z"/>
+    <path d="M986 62L991 72L1002 77L991 82L986 92L981 82L970 77L981 72L986 62Z"/>
+    <path d="M1041 154L1044 161L1051 164L1044 167L1041 174L1038 167L1031 164L1038 161L1041 154Z"/>
+    <path d="M274 171L277 178L284 181L277 184L274 191L271 184L264 181L271 178L274 171Z"/>
+  </g>
+  <text x="600" y="130" text-anchor="middle" fill="white" font-size="45" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">
+    Welcome to My GitHub
+  </text>
+  <text x="600" y="177" text-anchor="middle" fill="white" fill-opacity="0.95" font-size="22" font-weight="500" font-family="'Segoe UI', Arial, sans-serif">
+    soft ideas • bright code • steady growth
+  </text>
+</svg>
