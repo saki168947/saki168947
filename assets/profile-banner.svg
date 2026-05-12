@@ -38,10 +38,13 @@
     <path d="M1041 154L1044 161L1051 164L1044 167L1041 174L1038 167L1031 164L1038 161L1041 154Z"/>
     <path d="M274 171L277 178L284 181L277 184L274 191L271 184L264 181L271 178L274 171Z"/>
   </g>
-  <text x="600" y="130" text-anchor="middle" fill="white" font-size="45" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">
+  <text x="603" y="133" text-anchor="middle" fill="#8E6AAE" fill-opacity="0.18" font-size="47" font-weight="700" letter-spacing="1.4" font-family="'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive">
     Welcome to My GitHub
   </text>
-  <text x="600" y="177" text-anchor="middle" fill="white" fill-opacity="0.95" font-size="22" font-weight="500" font-family="'Segoe UI', Arial, sans-serif">
+  <text x="600" y="130" text-anchor="middle" fill="white" font-size="47" font-weight="700" letter-spacing="1.4" font-family="'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive">
+    Welcome to My GitHub
+  </text>
+  <text x="600" y="177" text-anchor="middle" fill="white" fill-opacity="0.95" font-size="22" font-weight="600" letter-spacing="2.4" font-family="'Trebuchet MS', 'Segoe UI', Arial, sans-serif">
     soft ideas • bright code • steady growth
   </text>
 </svg>
