@@ -2,11 +2,15 @@
   <img src="./assets/profile-banner.svg" width="100%" alt="Pink and blue gradient profile banner">
 </p>
 
-<h1 align="center">୨୧ 𝓗𝓲, 𝓘'𝓶 小花凉ovo ୨୧</h1>
+<h1 align="center">୨୧ 𝒽𝒾, 𝒾'𝓂 小花凉ovo ୨୧</h1>
 
 <p align="center">
   🌸 欢迎来到我的 GitHub 小角落 🌸 <br>
   ✨ 正在慢慢发光，也在认真长大 ✨
+</p>
+
+<p align="center">
+  <sub>dreamy little corner ⋆｡𖦹°‧★</sub>
 </p>
 
 <p align="center">
@@ -21,7 +25,7 @@
 
 ---
 
-## ♡ 𝒜𝒷𝑜𝓊𝓉 𝑀𝑒
+## ♡ 𝒶𝒷𝑜𝓊𝓉 𝓂𝑒
 
 - 🌷 你好呀，我是 `小花凉ovo`
 - 🎀 目前身份：`学生`
@@ -29,21 +33,21 @@
 - ✨ 喜欢把灵感一点点变成现实
 - 🍓 希望写出温柔又有力量的代码
 
-## ♥ 𝒮𝑜𝓂𝑒𝓉𝒽𝒾𝓃𝑔 𝐼 𝐿𝑜𝓋𝑒
+## ♥ 𝓈𝑜𝓂𝑒𝓉𝒽𝒾𝓃𝑔 𝒾 𝓁𝑜𝓋𝑒
 
 - 🌸 the character of 《bang dream! ave mujica》 called Togawa Sakiko
 - 🌸 夏恋
 - 🌸 ice cream
 - 🌸 还有很多很多
 
-## ♡ 𝒜 𝒯𝒾𝓃𝓎 𝒩𝑜𝓉𝑒
+## ♡ 𝒶 𝓉𝒾𝓃𝓎 𝓃𝑜𝓉𝑒
 
 > “慢一点也没关系，只要一直在往前走呀。”  
 > “Still growing, still glowing.”  
 > "you are not alone"
 
 <p align="center">
-  <sub>𝓅𝒾𝓃𝓀 𝓂𝑜𝑜𝒹 × 𝒷𝓁𝓊𝑒 𝒷𝓇𝑒𝑒𝓏𝑒 × 𝓉𝒾𝓃𝓎 𝓅𝓇𝑜𝑔𝓇𝑒𝓈𝓈 𝑒𝓋𝑒𝓇𝓎 𝒹𝒶𝓎</sub>
+  <sub>𝓅𝒾𝓃𝓀 𝓂𝑜𝑜𝒹 ⋆ 𝒷𝓁𝓊𝑒 𝒷𝓇𝑒𝑒𝓏𝑒 ⋆ 𝓉𝒾𝓃𝓎 𝒹𝓇𝑒𝒶𝓂𝓈</sub>
 </p>
 
 ---

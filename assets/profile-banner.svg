@@ -30,6 +30,9 @@
   <circle cx="1091" cy="96" r="20" fill="#FFFFFF" fill-opacity="0.24"/>
   <circle cx="878" cy="60" r="11" fill="#FFFFFF" fill-opacity="0.28"/>
   <circle cx="332" cy="259" r="12" fill="#FFFFFF" fill-opacity="0.22"/>
+  <circle cx="428" cy="78" r="9" fill="#FFFFFF" fill-opacity="0.24"/>
+  <circle cx="763" cy="242" r="14" fill="#FFFFFF" fill-opacity="0.16"/>
+  <circle cx="942" cy="144" r="8" fill="#FFFFFF" fill-opacity="0.22"/>
   <path d="M0 244C103 216 188 224 287 240C369 252 449 277 531 278C634 279 706 237 810 225C948 209 1068 245 1200 261V320H0V244Z" fill="#FFFFFF" fill-opacity="0.18"/>
   <path d="M0 269C109 249 216 264 319 276C430 289 543 293 654 286C780 278 893 251 1019 248C1080 246 1139 251 1200 260V320H0V269Z" fill="#FFFFFF" fill-opacity="0.14"/>
   <g fill="#FFFFFF" fill-opacity="0.95">
@@ -37,14 +40,15 @@
     <path d="M986 62L991 72L1002 77L991 82L986 92L981 82L970 77L981 72L986 62Z"/>
     <path d="M1041 154L1044 161L1051 164L1044 167L1041 174L1038 167L1031 164L1038 161L1041 154Z"/>
     <path d="M274 171L277 178L284 181L277 184L274 191L271 184L264 181L271 178L274 171Z"/>
+    <path d="M901 208L904 214L910 217L904 220L901 226L898 220L892 217L898 214L901 208Z"/>
   </g>
-  <text x="603" y="133" text-anchor="middle" fill="#8E6AAE" fill-opacity="0.18" font-size="47" font-weight="700" letter-spacing="1.4" font-family="'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive">
+  <text x="603" y="135" text-anchor="middle" fill="#8E6AAE" fill-opacity="0.14" font-size="50" font-weight="700" font-style="italic" letter-spacing="1.1" font-family="'Palatino Linotype', 'URW Chancery L', 'Georgia', serif">
     Welcome to My GitHub
   </text>
-  <text x="600" y="130" text-anchor="middle" fill="white" font-size="47" font-weight="700" letter-spacing="1.4" font-family="'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive">
+  <text x="600" y="130" text-anchor="middle" fill="white" font-size="50" font-weight="700" font-style="italic" letter-spacing="1.1" font-family="'Palatino Linotype', 'URW Chancery L', 'Georgia', serif">
     Welcome to My GitHub
   </text>
-  <text x="600" y="177" text-anchor="middle" fill="white" fill-opacity="0.95" font-size="22" font-weight="600" letter-spacing="2.4" font-family="'Trebuchet MS', 'Segoe UI', Arial, sans-serif">
-    soft ideas • bright code • steady growth
+  <text x="600" y="178" text-anchor="middle" fill="white" fill-opacity="0.96" font-size="21" font-weight="500" font-style="italic" letter-spacing="1.8" font-family="'Georgia', 'Times New Roman', serif">
+    soft ideas • bright code • dreamy growth
   </text>
 </svg>
