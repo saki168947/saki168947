@@ -2,7 +2,9 @@
   <img src="./assets/profile-banner.svg" width="100%" alt="Blue pink white striped profile banner">
 </p>
 
-<h1 align="center">🩵🩷🤍 ୨୧ 𝒽𝒾, 𝒾'𝓂 小花凉ovo ୨୧ 🤍🩷🩵</h1>
+<p align="center">
+  <img src="./assets/profile-title.svg" width="88%" alt="Hi, I'm 小花凉ovo">
+</p>
 
 <p align="center">
   🩵 欢迎来到我的 GitHub 小角落 🩷 <br>
@@ -27,7 +29,9 @@
   <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
 </p>
 
-## ♡ 𝒶𝒷𝑜𝓊𝓉 𝓂𝑒
+<p align="center">
+  <img src="./assets/heading-about.svg" width="70%" alt="About me">
+</p>
 
 - 🌷 你好呀，我是 `小花凉ovo`
 - 🎀 目前身份：`学生`
@@ -39,7 +43,9 @@
   <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
 </p>
 
-## ♥ 𝓈𝑜𝓂𝑒𝓉𝒽𝒾𝓃𝑔 𝒾 𝓁𝑜𝓋𝑒
+<p align="center">
+  <img src="./assets/heading-love.svg" width="70%" alt="Something I love">
+</p>
 
 - 🌸 the character of 《bang dream! ave mujica》 called Togawa Sakiko
 - 🌸 夏恋
@@ -50,7 +56,9 @@
   <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
 </p>
 
-## ♡ 𝒶 𝓉𝒾𝓃𝓎 𝓃𝑜𝓉𝑒
+<p align="center">
+  <img src="./assets/heading-note.svg" width="70%" alt="A tiny note">
+</p>
 
 > “慢一点也没关系，只要一直在往前走呀。”  
 > “Still growing, still glowing.”  

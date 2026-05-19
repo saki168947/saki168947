@@ -1,0 +1,21 @@
+<svg width="1100" height="118" viewBox="0 0 1100 118" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm 小花凉ovo</title>
+  <desc id="desc">A soft blue and pink profile title with a white outline.</desc>
+  <defs>
+    <filter id="paperShadow" x="120" y="16" width="860" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#5BCEFA" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <g filter="url(#paperShadow)">
+    <text x="550" y="72" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linejoin="round" paint-order="stroke" font-size="48" font-weight="700" font-style="italic" letter-spacing="1" font-family="'Palatino Linotype', 'Georgia', serif">
+      ୨୧ hi, i'm 小花凉ovo ୨୧
+    </text>
+    <text x="550" y="72" text-anchor="middle" font-size="48" font-weight="700" font-style="italic" letter-spacing="1" font-family="'Palatino Linotype', 'Georgia', serif">
+      <tspan fill="#4ABCE8">୨୧ hi, i'm </tspan><tspan fill="#E78FA4">小花凉ovo</tspan><tspan fill="#4ABCE8"> ୨୧</tspan>
+    </text>
+  </g>
+  <circle cx="218" cy="35" r="5" fill="#F5A9B8"/>
+  <circle cx="883" cy="83" r="5" fill="#5BCEFA"/>
+  <path d="M180 79L184 87L192 91L184 95L180 103L176 95L168 91L176 87L180 79Z" fill="#F5A9B8" fill-opacity="0.85"/>
+  <path d="M924 18L928 26L936 30L928 34L924 42L920 34L912 30L920 26L924 18Z" fill="#5BCEFA" fill-opacity="0.85"/>
+</svg>

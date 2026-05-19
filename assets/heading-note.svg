@@ -1,0 +1,8 @@
+<svg width="760" height="74" viewBox="0 0 760 74" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">a tiny note</title>
+  <desc id="desc">A soft blue and pink note section heading.</desc>
+  <path d="M178 54C280 42 480 42 582 54" stroke="#F5A9B8" stroke-width="8" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M215 62C310 55 450 55 545 62" stroke="#5BCEFA" stroke-width="5" stroke-linecap="round" stroke-opacity="0.48"/>
+  <text x="380" y="43" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" paint-order="stroke" font-size="34" font-weight="700" font-style="italic" letter-spacing="0.8" font-family="'Palatino Linotype', 'Georgia', serif">♡ a tiny note</text>
+  <text x="380" y="43" text-anchor="middle" fill="#4ABCE8" font-size="34" font-weight="700" font-style="italic" letter-spacing="0.8" font-family="'Palatino Linotype', 'Georgia', serif">♡ a tiny note</text>
+</svg>
