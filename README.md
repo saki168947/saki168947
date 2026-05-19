@@ -23,7 +23,9 @@
   <sub>⋆｡˚ 🩵 ☁️ 🩷 🤍 ✨ ˚｡⋆</sub>
 </p>
 
----
+<p align="center">
+  <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
+</p>
 
 ## ♡ 𝒶𝒷𝑜𝓊𝓉 𝓂𝑒
 
@@ -33,12 +35,20 @@
 - ✨ 喜欢把灵感一点点变成现实
 - 🍓 希望写出温柔又有力量的代码
 
+<p align="center">
+  <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
+</p>
+
 ## ♥ 𝓈𝑜𝓂𝑒𝓉𝒽𝒾𝓃𝑔 𝒾 𝓁𝑜𝓋𝑒
 
 - 🌸 the character of 《bang dream! ave mujica》 called Togawa Sakiko
 - 🌸 夏恋
 - 🌸 ice cream
 - 🌸 还有很多很多
+
+<p align="center">
+  <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
+</p>
 
 ## ♡ 𝒶 𝓉𝒾𝓃𝓎 𝓃𝑜𝓉𝑒
 
@@ -50,7 +60,9 @@
   <sub>𝓈𝓀𝓎 𝒷𝓁𝓊𝑒 ⋆ 𝒸𝒶𝓃𝒹𝓎 𝓅𝒾𝓃𝓀 ⋆ 𝓈𝑜𝒻𝓉 𝓌𝒽𝒾𝓉𝑒</sub>
 </p>
 
----
+<p align="center">
+  <img src="./assets/stripe-divider.svg" width="100%" alt="Blue pink white striped divider">
+</p>
 
 <p align="center">
   🍰 Thanks for visiting my profile 🍰 <br>

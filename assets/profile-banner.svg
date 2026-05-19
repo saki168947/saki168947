@@ -1,63 +1,50 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Blue pink white dreamy GitHub profile banner</title>
-  <desc id="desc">A soft striped banner in sky blue, pink, and white with dreamy sparkles.</desc>
+  <title id="title">Soft blue pink white profile banner</title>
+  <desc id="desc">A matte blue, pink, and white striped GitHub profile banner with soft paper texture.</desc>
   <defs>
-    <radialGradient id="pinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(270 112) rotate(90) scale(160 220)">
-      <stop stop-color="#FFFFFF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 96) rotate(90) scale(165 220)">
-      <stop stop-color="#FFFFFF" stop-opacity="0.82"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-120" y="-120" width="1440" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="32"/>
+    <filter id="paper" x="0" y="0" width="1200" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.98 0 0 0 0 0.98 0 0 0 0 0.98 0 0 0 0.18 0"/>
+      <feBlend in2="SourceGraphic" mode="soft-light"/>
     </filter>
-    <linearGradient id="card" x1="355" y1="90" x2="850" y2="228" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF" stop-opacity="0.68"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.42"/>
-    </linearGradient>
+    <filter id="softShadow" x="260" y="70" width="680" height="175" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#7EBFE1" flood-opacity="0.16"/>
+    </filter>
   </defs>
-  <rect width="1200" height="320" rx="40" fill="#5BCEFA"/>
-  <rect y="64" width="1200" height="64" fill="#F5A9B8"/>
-  <rect y="128" width="1200" height="64" fill="#FFFFFF"/>
-  <rect y="192" width="1200" height="64" fill="#F5A9B8"/>
-  <rect y="256" width="1200" height="64" fill="#5BCEFA"/>
-  <g filter="url(#blur)" opacity="0.75">
-    <ellipse cx="250" cy="110" rx="176" ry="118" fill="url(#pinkGlow)"/>
-    <ellipse cx="944" cy="103" rx="185" ry="120" fill="url(#blueGlow)"/>
+
+  <g filter="url(#paper)">
+    <rect width="1200" height="320" rx="28" fill="#5BCEFA"/>
+    <rect y="64" width="1200" height="64" fill="#F5A9B8"/>
+    <rect y="128" width="1200" height="64" fill="#FFFFFF"/>
+    <rect y="192" width="1200" height="64" fill="#F5A9B8"/>
+    <rect y="256" width="1200" height="64" fill="#5BCEFA"/>
   </g>
-  <rect x="278" y="72" width="644" height="148" rx="34" fill="url(#card)"/>
-  <circle cx="178" cy="228" r="53" fill="#FFFFFF" fill-opacity="0.16"/>
-  <circle cx="1028" cy="228" r="62" fill="#FFFFFF" fill-opacity="0.16"/>
-  <circle cx="108" cy="87" r="18" fill="#FFFFFF" fill-opacity="0.28"/>
-  <circle cx="1091" cy="96" r="20" fill="#FFFFFF" fill-opacity="0.28"/>
-  <circle cx="878" cy="60" r="11" fill="#FFFFFF" fill-opacity="0.3"/>
-  <circle cx="332" cy="259" r="12" fill="#FFFFFF" fill-opacity="0.24"/>
-  <circle cx="428" cy="78" r="9" fill="#FFFFFF" fill-opacity="0.26"/>
-  <circle cx="763" cy="242" r="14" fill="#FFFFFF" fill-opacity="0.18"/>
-  <circle cx="942" cy="144" r="8" fill="#FFFFFF" fill-opacity="0.24"/>
-  <path d="M0 243C100 217 185 225 281 241C378 257 467 281 565 280C669 279 744 238 848 226C980 211 1086 244 1200 259V320H0V243Z" fill="#FFFFFF" fill-opacity="0.14"/>
-  <path d="M0 273C118 253 231 266 343 278C456 290 563 294 675 287C787 280 897 256 1009 252C1075 249 1138 252 1200 260V320H0V273Z" fill="#FFFFFF" fill-opacity="0.11"/>
-  <g fill="#FFFFFF" fill-opacity="0.96">
-    <path d="M194 70L199 81L210 86L199 91L194 102L189 91L178 86L189 81L194 70Z"/>
-    <path d="M995 61L1000 72L1011 77L1000 82L995 93L990 82L979 77L990 72L995 61Z"/>
-    <path d="M1035 154L1038 160L1044 163L1038 166L1035 172L1032 166L1026 163L1032 160L1035 154Z"/>
-    <path d="M281 171L284 177L290 180L284 183L281 189L278 183L272 180L278 177L281 171Z"/>
-    <path d="M903 208L906 214L912 217L906 220L903 226L900 220L894 217L900 214L903 208Z"/>
-    <path d="M149 154C156 148 162 148 169 154C162 160 156 166 149 172C142 166 136 160 129 154C136 148 142 148 149 154Z"/>
-    <path d="M1053 202C1060 196 1066 196 1073 202C1066 208 1060 214 1053 220C1046 214 1040 208 1033 202C1040 196 1046 196 1053 202Z"/>
+
+  <path d="M0 51H1200" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M0 127H1200" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M0 192H1200" stroke="#5BCEFA" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M0 256H1200" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="292" y="82" width="616" height="142" rx="28" fill="#FFFFFF" fill-opacity="0.62"/>
+    <rect x="300" y="90" width="600" height="126" rx="22" stroke="#FFFFFF" stroke-opacity="0.74" stroke-width="2"/>
   </g>
-  <text x="604" y="135" text-anchor="middle" fill="#F5A9B8" fill-opacity="0.9" font-size="48" font-weight="700" font-style="italic" letter-spacing="1.2" font-family="'Palatino Linotype', 'Georgia', serif">
+
+  <g fill="#FFFFFF" fill-opacity="0.9">
+    <path d="M194 72L199 82L209 87L199 92L194 102L189 92L179 87L189 82L194 72Z"/>
+    <path d="M1000 62L1005 73L1016 78L1005 83L1000 94L995 83L984 78L995 73L1000 62Z"/>
+    <path d="M264 220L268 228L276 232L268 236L264 244L260 236L252 232L260 228L264 220Z"/>
+    <path d="M936 222L940 230L948 234L940 238L936 246L932 238L924 234L932 230L936 222Z"/>
+    <circle cx="128" cy="174" r="6"/>
+    <circle cx="1074" cy="174" r="6"/>
+    <circle cx="404" cy="58" r="5"/>
+    <circle cx="792" cy="268" r="5"/>
+  </g>
+
+  <text x="600" y="137" text-anchor="middle" fill="#4AAED8" font-size="48" font-weight="700" font-style="italic" letter-spacing="1" font-family="'Palatino Linotype', 'Georgia', serif">
     Welcome to My GitHub
   </text>
-  <text x="596" y="135" text-anchor="middle" fill="#5BCEFA" fill-opacity="0.88" font-size="48" font-weight="700" font-style="italic" letter-spacing="1.2" font-family="'Palatino Linotype', 'Georgia', serif">
-    Welcome to My GitHub
-  </text>
-  <text x="600" y="132" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="700" font-style="italic" letter-spacing="1.2" font-family="'Palatino Linotype', 'Georgia', serif">
-    Welcome to My GitHub
-  </text>
-  <text x="600" y="180" text-anchor="middle" fill="#5B7A96" fill-opacity="0.92" font-size="21" font-weight="600" font-style="italic" letter-spacing="1.6" font-family="'Georgia', 'Times New Roman', serif">
-    blue sky • pink clouds • dreamy growth
+  <text x="600" y="180" text-anchor="middle" fill="#E78FA4" font-size="21" font-weight="600" font-style="italic" letter-spacing="1.4" font-family="'Georgia', 'Times New Roman', serif">
+    blue sky • pink clouds • soft white pages
   </text>
 </svg>
