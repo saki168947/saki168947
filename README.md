@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Pink and blue gradient profile banner">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Blue pink white striped profile banner">
 </p>
 
-<h1 align="center">୨୧ 𝒽𝒾, 𝒾'𝓂 小花凉ovo ୨୧</h1>
+<h1 align="center">🩵🩷🤍 ୨୧ 𝒽𝒾, 𝒾'𝓂 小花凉ovo ୨୧ 🤍🩷🩵</h1>
 
 <p align="center">
-  🌸 欢迎来到我的 GitHub 小角落 🌸 <br>
+  🩵 欢迎来到我的 GitHub 小角落 🩷 <br>
   ✨ 正在慢慢发光，也在认真长大 ✨
 </p>
 
 <p align="center">
-  <sub>dreamy little corner ⋆｡𖦹°‧★</sub>
+  <sub>blue sky, pink clouds, and tiny little dreams ⋆｡°✩</sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Theme-Pink%20%26%20Blue-a2d2ff?style=for-the-badge&labelColor=ffc8dd" alt="Pink and Blue Theme">
-  <img src="https://img.shields.io/badge/Mood-Soft%20%26%20Curious-cdb4db?style=for-the-badge&labelColor=ffafcc" alt="Soft and Curious">
-  <img src="https://img.shields.io/badge/Love-Little%20Dreams-bde0fe?style=for-the-badge&labelColor=ffc8dd" alt="Little Dreams">
+  <img src="https://img.shields.io/badge/Theme-Sky%20Blue-5BCEFA?style=for-the-badge&labelColor=F5A9B8" alt="Sky Blue Theme">
+  <img src="https://img.shields.io/badge/Mood-Cloud%20White-FFFFFF?style=for-the-badge&labelColor=5BCEFA&color=FFFFFF" alt="Cloud White Mood">
+  <img src="https://img.shields.io/badge/Love-Candy%20Pink-F5A9B8?style=for-the-badge&labelColor=FFFFFF&color=F5A9B8" alt="Candy Pink Love">
 </p>
 
 <p align="center">
-  <sub>⋆｡˚ 🌷 🫧 💙 ☁️ ✨ ˚｡⋆</sub>
+  <sub>⋆｡˚ 🩵 ☁️ 🩷 🤍 ✨ ˚｡⋆</sub>
 </p>
 
 ---
@@ -47,7 +47,7 @@
 > "you are not alone"
 
 <p align="center">
-  <sub>𝓅𝒾𝓃𝓀 𝓂𝑜𝑜𝒹 ⋆ 𝒷𝓁𝓊𝑒 𝒷𝓇𝑒𝑒𝓏𝑒 ⋆ 𝓉𝒾𝓃𝓎 𝒹𝓇𝑒𝒶𝓂𝓈</sub>
+  <sub>𝓈𝓀𝓎 𝒷𝓁𝓊𝑒 ⋆ 𝒸𝒶𝓃𝒹𝓎 𝓅𝒾𝓃𝓀 ⋆ 𝓈𝑜𝒻𝓉 𝓌𝒽𝒾𝓉𝑒</sub>
 </p>
 
 ---
