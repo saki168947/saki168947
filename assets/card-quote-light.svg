@@ -1,0 +1,112 @@
+<svg width="960" height="175" viewBox="0 0 960 175" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="quoteLightTitle quoteLightDesc">
+  <title id="quoteLightTitle">✧ a tiny note · Twilight Monologue Card (Light Pastel) ✧</title>
+  <desc id="quoteLightDesc">A dreamy pastel monologue card with cute typography, animated twinkling stars, shooting star, and luminous breathing border designed for GitHub Light Mode.</desc>
+
+  <defs>
+    <!-- Soft Dreamy Pastel Base Gradient -->
+    <linearGradient id="pastelSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBF3FD"/>
+      <stop offset="35%" stop-color="#F4ECF8"/>
+      <stop offset="70%" stop-color="#FDF1F5"/>
+      <stop offset="100%" stop-color="#ECF4FE"/>
+    </linearGradient>
+
+    <!-- Card Border -->
+    <linearGradient id="quoteBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EB4FA" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8A5B7" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Shooting Star Gradient -->
+    <linearGradient id="meteorLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#EC4899" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2B7DE9" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Cloud Blur Filter -->
+    <filter id="cloudBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <!-- Card Elevation Shadow -->
+    <filter id="cardElevation" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#9CB3DB" flood-opacity="0.2"/>
+    </filter>
+
+    <filter id="softTextShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#BACBFF" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base with Soft Elevation Shadow -->
+  <g filter="url(#cardElevation)">
+    <rect x="2" y="2" width="956" height="171" rx="20" fill="url(#pastelSky)"/>
+  </g>
+
+  <!-- DYNAMIC BACKGROUND LAYER: Breathing Pastel Nebulas -->
+  <g filter="url(#cloudBlur)">
+    <circle cx="300" cy="85" r="140" fill="#72B5F8" opacity="0.4">
+      <animate attributeName="opacity" values="0.3; 0.5; 0.3" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="90" r="140" fill="#FBA6B9" opacity="0.4">
+      <animate attributeName="opacity" values="0.3; 0.5; 0.3" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Frosted Glass White Overlay -->
+  <rect x="2" y="2" width="956" height="171" rx="20" fill="#FFFFFF" fill-opacity="0.35"/>
+
+  <!-- Shooting Star in Light Quote Card -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.35; 0.4; 0.62; 0.67; 1" dur="7.5s" repeatCount="indefinite"/>
+    <line x1="180" y1="15" x2="310" y2="70" stroke="url(#meteorLight)" stroke-width="2" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="-150 -70; 260 120" dur="7.5s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="310" cy="70" r="2.6" fill="#2B7DE9">
+      <animateTransform attributeName="transform" type="translate" values="-150 -70; 260 120" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Twinkling Starlight Particles -->
+  <g fill="#3B82F6">
+    <circle cx="90" cy="35" r="1.8">
+      <animate attributeName="opacity" values="0.25; 1; 0.25" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="210" cy="145" r="1.8" fill="#EC4899">
+      <animate attributeName="opacity" values="0.2; 0.9; 0.2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="30" r="1.8" fill="#8B5CF6">
+      <animate attributeName="opacity" values="0.25; 0.95; 0.25" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="870" cy="140" r="2" fill="#EC4899">
+      <animate attributeName="opacity" values="0.2; 1; 0.2" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Luminous Animated Border -->
+  <rect x="1" y="1" width="958" height="173" rx="19" stroke="url(#quoteBorderLight)" stroke-width="1.8">
+    <animate attributeName="stroke-opacity" values="0.7; 1; 0.7" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Top Center Header (Cute Italic + Ribbon Style) -->
+  <g transform="translate(480, 28)" text-anchor="middle">
+    <text x="0" y="0" fill="#2563EB" font-size="13" font-weight="700" font-style="italic" letter-spacing="1.5" font-family="'Palatino Linotype', 'Georgia', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+      ♡ a tiny note · 随笔与日常 ♡
+    </text>
+  </g>
+
+  <!-- 3 Quotes Centered with Cute Typography & Heart/Star Accents -->
+  <g text-anchor="middle" filter="url(#softTextShadow)">
+    <text x="480" y="68" fill="#0F172A" font-size="16" font-weight="700" font-family="'Palatino Linotype', 'Georgia', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+      “ 世界如此残酷  但我依然爱你 ♡ ”
+    </text>
+    <text x="480" y="100" fill="#BE185D" font-size="15" font-style="italic" font-weight="600" font-family="'Palatino Linotype', 'Georgia', 'Yu Mincho', 'PingFang SC', serif">
+      “ 羽ばたくことも許されぬまま、それでも夜空を見上げている ✧ ”
+    </text>
+    <text x="480" y="132" fill="#2563EB" font-size="13.5" font-style="italic" font-weight="600" letter-spacing="1" font-family="'Palatino Linotype', 'Georgia', sans-serif">
+      ୨୧ Still growing, still glowing. You are not alone. ୨୧
+    </text>
+  </g>
+</svg>
