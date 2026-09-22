@@ -1,0 +1,285 @@
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bannerLightTitle bannerLightDesc">
+  <title id="bannerLightTitle">୨୧ Saki ✦ 小花凉ovo &amp; Moonlit Pastel Profile Banner ୨୧</title>
+  <desc id="bannerLightDesc">A dreamy pastel blue, pink, and white Ave Mujica themed profile banner designed to blend seamlessly with GitHub Light Mode.</desc>
+
+  <defs>
+    <!-- Soft Dreamy Pastel Base Gradient -->
+    <linearGradient id="pastelSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBF3FD"/>
+      <stop offset="35%" stop-color="#F4ECF8"/>
+      <stop offset="70%" stop-color="#FDF1F5"/>
+      <stop offset="100%" stop-color="#ECF4FE"/>
+    </linearGradient>
+
+    <!-- Card Border -->
+    <linearGradient id="pastelBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EB4FA" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8A5B7" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Title Gradient (Vibrant Pastel) -->
+    <linearGradient id="titleGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2B7DE9"/>
+      <stop offset="30%" stop-color="#8B5CF6"/>
+      <stop offset="70%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#2B7DE9"/>
+    </linearGradient>
+
+    <!-- Shooting Star Gradient -->
+    <linearGradient id="meteorLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5BCEFA" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#EC4899" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2B7DE9" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Soft Cloud Blur Filter -->
+    <filter id="cloudBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+
+    <!-- Sticker Shadow Filter -->
+    <filter id="stickerShadowLight" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#8EA8D6" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Card Elevation Shadow -->
+    <filter id="cardElevation" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#9CB3DB" flood-opacity="0.22"/>
+    </filter>
+
+    <filter id="sparkleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card Base with Soft Elevation Shadow -->
+  <g filter="url(#cardElevation)">
+    <rect x="2" y="2" width="956" height="356" rx="24" fill="url(#pastelSky)"/>
+  </g>
+
+  <!-- DYNAMIC LAYER 1: Breathing Pastel Nebulas / Cloud Mist -->
+  <g filter="url(#cloudBlur)">
+    <!-- Sky Blue Mist -->
+    <circle cx="220" cy="140" r="170" fill="#72B5F8" opacity="0.45">
+      <animate attributeName="cx" values="220; 270; 220" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="140; 110; 140" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35; 0.55; 0.35" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Cherry Blossom Pink Mist -->
+    <circle cx="740" cy="200" r="180" fill="#FBA6B9" opacity="0.45">
+      <animate attributeName="cx" values="740; 690; 740" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="200; 230; 200" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35; 0.55; 0.35" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Center Pure White Cloud Pearl -->
+    <ellipse cx="480" cy="170" rx="260" ry="90" fill="#FFFFFF" opacity="0.65">
+      <animate attributeName="opacity" values="0.55; 0.75; 0.55" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Frosted Glass Card Base Panel -->
+  <rect x="2" y="2" width="956" height="356" rx="24" fill="#FFFFFF" fill-opacity="0.35"/>
+
+  <!-- DYNAMIC LAYER 2: Animated Pastel Meteors -->
+  <g>
+    <!-- Meteor 1 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0; 0; 0.9; 0.9; 0; 0" keyTimes="0; 0.15; 0.22; 0.42; 0.48; 1" dur="6.5s" repeatCount="indefinite"/>
+      <line x1="60" y1="20" x2="200" y2="90" stroke="url(#meteorLight)" stroke-width="2.6" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="-180 -90; 260 130" dur="6.5s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="200" cy="90" r="3.2" fill="#2B7DE9" filter="url(#sparkleGlow)">
+        <animateTransform attributeName="transform" type="translate" values="-180 -90; 260 130" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <!-- Meteor 2 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0; 0; 0.85; 0.85; 0; 0" keyTimes="0; 0.52; 0.58; 0.78; 0.84; 1" dur="9s" repeatCount="indefinite"/>
+      <line x1="580" y1="20" x2="720" y2="90" stroke="url(#meteorLight)" stroke-width="2.4" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="-160 -80; 240 120" dur="9s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="720" cy="90" r="3" fill="#EC4899" filter="url(#sparkleGlow)">
+        <animateTransform attributeName="transform" type="translate" values="-160 -80; 240 120" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- DYNAMIC LAYER 3: Twinkling Pastel Stars -->
+  <g fill="#4F79BE">
+    <circle cx="70" cy="75" r="2.2" fill="#3B82F6">
+      <animate attributeName="opacity" values="0.3; 1; 0.3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1.5; 2.8; 1.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="155" cy="45" r="2" fill="#EC4899">
+      <animate attributeName="opacity" values="0.35; 1; 0.35" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="70" r="2.2" fill="#3B82F6">
+      <animate attributeName="opacity" values="0.25; 0.95; 0.25" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="55" r="2" fill="#EC4899">
+      <animate attributeName="opacity" values="0.3; 1; 0.3" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="85" r="2.4" fill="#3B82F6">
+      <animate attributeName="opacity" values="0.25; 0.95; 0.25" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="210" r="2.2" fill="#EC4899">
+      <animate attributeName="opacity" values="0.3; 1; 0.3" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Rotating Sparkle Stars ✧ -->
+    <g transform="translate(120, 60)">
+      <path d="M0 -11 L2.5 -3 L10 0 L2.5 3 L0 11 L-2.5 3 L-10 0 L-2.5 -3 Z" fill="#EC4899">
+        <animate attributeName="opacity" values="0.4; 1; 0.4" dur="2.8s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g transform="translate(865, 240)">
+      <path d="M0 -10 L2.2 -2.5 L9 0 L2.2 2.5 L0 10 L-2.2 2.5 L-9 0 L-2.2 -2.5 Z" fill="#3B82F6">
+        <animate attributeName="opacity" values="0.35; 1; 0.35" dur="2.4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- Constellation Connecting Lines -->
+  <g stroke="#9BBCEB" stroke-width="0.9" stroke-opacity="0.5" stroke-dasharray="3 4">
+    <line x1="70" y1="75" x2="155" y2="45"/>
+    <line x1="155" y1="45" x2="280" y2="70"/>
+    <line x1="580" y1="55" x2="680" y2="85"/>
+  </g>
+
+  <!-- Moon in Pastel Light Theme (Top Right) -->
+  <g transform="translate(820, 95)">
+    <!-- Breathing Moon Halo -->
+    <circle cx="0" cy="0" r="85" fill="#E2EDFD" opacity="0.6">
+      <animate attributeName="r" values="75; 95; 75" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45; 0.75; 0.45" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Moon Body -->
+    <circle cx="0" cy="0" r="38" fill="#FFFFFF" stroke="#BACBFF" stroke-width="1.2"/>
+    <circle cx="-16" cy="-10" r="35" fill="#EEF4FE"/>
+
+    <!-- Rotating Orbital Rings -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="32s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="54" stroke="#7EB4FA" stroke-width="1.2" stroke-dasharray="4 6" stroke-opacity="0.7"/>
+      <circle cx="54" cy="0" r="3" fill="#3B82F6"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="40s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="70" stroke="#F8A5B7" stroke-width="1" stroke-dasharray="3 8" stroke-opacity="0.7"/>
+      <circle cx="-70" cy="0" r="2.5" fill="#EC4899"/>
+    </g>
+  </g>
+
+  <!-- Floating Musical Notes ♪ ♫ ♡ -->
+  <g>
+    <g transform="translate(75, 145)">
+      <animateTransform attributeName="transform" type="translate" values="75 145; 78 132; 75 122; 72 133; 75 145" dur="5s" repeatCount="indefinite"/>
+      <text x="0" y="0" fill="#3B82F6" font-size="22" font-family="'Segoe UI Symbol', sans-serif">♪</text>
+    </g>
+    <g transform="translate(230, 48)">
+      <animateTransform attributeName="transform" type="translate" values="230 48; 233 38; 230 28; 227 38; 230 48" dur="6s" repeatCount="indefinite"/>
+      <text x="0" y="0" fill="#EC4899" font-size="24" font-family="'Segoe UI Symbol', sans-serif">♫</text>
+    </g>
+    <g transform="translate(735, 140)">
+      <animateTransform attributeName="transform" type="translate" values="735 140; 738 128; 735 118; 732 129; 735 140" dur="4.6s" repeatCount="indefinite"/>
+      <text x="0" y="0" fill="#EC4899" font-size="19" font-family="'Segoe UI Symbol', sans-serif">♡</text>
+    </g>
+  </g>
+
+  <!-- Stylized Piano Keys along Lower Border (Light Frosted) -->
+  <g transform="translate(0, 325)">
+    <line x1="0" y1="0" x2="960" y2="0" stroke="#BACBFF" stroke-width="1.2"/>
+    <path d="M 0 0 L 960 0 L 960 35 L 0 35 Z" fill="#FFFFFF" fill-opacity="0.8"/>
+    <!-- Key dividers -->
+    <g stroke="#C4D5F2" stroke-width="0.8">
+      <line x1="30" y1="0" x2="30" y2="35"/><line x1="60" y1="0" x2="60" y2="35"/><line x1="90" y1="0" x2="90" y2="35"/>
+      <line x1="120" y1="0" x2="120" y2="35"/><line x1="150" y1="0" x2="150" y2="35"/><line x1="180" y1="0" x2="180" y2="35"/>
+      <line x1="210" y1="0" x2="210" y2="35"/><line x1="240" y1="0" x2="240" y2="35"/><line x1="270" y1="0" x2="270" y2="35"/>
+      <line x1="300" y1="0" x2="300" y2="35"/><line x1="330" y1="0" x2="330" y2="35"/><line x1="360" y1="0" x2="360" y2="35"/>
+      <line x1="390" y1="0" x2="390" y2="35"/><line x1="420" y1="0" x2="420" y2="35"/><line x1="450" y1="0" x2="450" y2="35"/>
+      <line x1="480" y1="0" x2="480" y2="35"/><line x1="510" y1="0" x2="510" y2="35"/><line x1="540" y1="0" x2="540" y2="35"/>
+      <line x1="570" y1="0" x2="570" y2="35"/><line x1="600" y1="0" x2="600" y2="35"/><line x1="630" y1="0" x2="630" y2="35"/>
+      <line x1="660" y1="0" x2="660" y2="35"/><line x1="690" y1="0" x2="690" y2="35"/><line x1="720" y1="0" x2="720" y2="35"/>
+      <line x1="750" y1="0" x2="750" y2="35"/><line x1="780" y1="0" x2="780" y2="35"/><line x1="810" y1="0" x2="810" y2="35"/>
+      <line x1="840" y1="0" x2="840" y2="35"/><line x1="870" y1="0" x2="870" y2="35"/><line x1="900" y1="0" x2="900" y2="35"/>
+      <line x1="930" y1="0" x2="930" y2="35"/>
+    </g>
+    <!-- Black Keys in Soft Slate Navy -->
+    <g fill="#43527A">
+      <rect x="21" y="0" width="18" height="20" rx="1.5"/><rect x="51" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="111" y="0" width="18" height="20" rx="1.5"/><rect x="141" y="0" width="18" height="20" rx="1.5"/><rect x="171" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="231" y="0" width="18" height="20" rx="1.5"/><rect x="261" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="321" y="0" width="18" height="20" rx="1.5"/><rect x="351" y="0" width="18" height="20" rx="1.5"/><rect x="381" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="441" y="0" width="18" height="20" rx="1.5"/><rect x="471" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="531" y="0" width="18" height="20" rx="1.5"/><rect x="561" y="0" width="18" height="20" rx="1.5"/><rect x="591" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="651" y="0" width="18" height="20" rx="1.5"/><rect x="681" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="741" y="0" width="18" height="20" rx="1.5"/><rect x="771" y="0" width="18" height="20" rx="1.5"/><rect x="801" y="0" width="18" height="20" rx="1.5"/>
+      <rect x="861" y="0" width="18" height="20" rx="1.5"/><rect x="891" y="0" width="18" height="20" rx="1.5"/>
+    </g>
+  </g>
+
+  <!-- Luminous Border with Soft Glow -->
+  <rect x="1" y="1" width="958" height="358" rx="23" stroke="url(#pastelBorder)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.7; 1; 0.7" dur="3.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- TYPOGRAPHY LAYER -->
+  <g text-anchor="middle">
+    <!-- Top Subheader -->
+    <text x="480" y="68" fill="#4B6DAE" font-size="13" font-weight="700" letter-spacing="3" font-family="'Palatino Linotype', 'Georgia', 'M PLUS Rounded 1c', serif">
+      ♡  A v e   M u j i c a  ·  T o g a w a   S a k i k o  ♡
+    </text>
+
+    <!-- Main Title with Clean Sticker Outline & Vibrant Blue-Purple-Pink Gradient -->
+    <g filter="url(#stickerShadowLight)">
+      <text x="480" y="142" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke" font-size="44" font-weight="700" font-style="italic" letter-spacing="1.5" font-family="'Palatino Linotype', 'Georgia', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+        ୨୧ hi, i'm 小花凉ovo ୨୧
+      </text>
+      <text x="480" y="142" fill="url(#titleGradLight)" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.8" paint-order="stroke" font-size="44" font-weight="700" font-style="italic" letter-spacing="1.5" font-family="'Palatino Linotype', 'Georgia', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+        ୨୧ hi, i'm 小花凉ovo ୨୧
+      </text>
+    </g>
+
+    <!-- Japanese Poetic Subtitle -->
+    <text x="480" y="186" fill="#C0356C" font-size="16" font-style="italic" font-weight="600" letter-spacing="1.5" font-family="'Palatino Linotype', 'Georgia', 'PingFang SC', serif">
+      “ 羽ばたくことも許されぬまま、それでも星々の夜を紡ぐ ✧ ”
+    </text>
+
+    <!-- English Description -->
+    <text x="480" y="222" fill="#365492" font-size="12" font-weight="700" letter-spacing="2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      ✦ STUDENT · DEVELOPER · TIME SERIES &amp; RUST ENTHUSIAST ✦
+    </text>
+
+    <!-- 3 Capsule Badges (Frosted Milk White Pills) -->
+    <g transform="translate(480, 274)">
+      <!-- Badge 1 -->
+      <g transform="translate(-230, 0)">
+        <rect x="-105" y="-16" width="210" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#72B5F8" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#1E3A8A" font-size="12.5" font-weight="600" letter-spacing="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+          🎹 丰川祥子 · Ave Mujica
+        </text>
+      </g>
+      <!-- Badge 2 -->
+      <g transform="translate(0, 0)">
+        <rect x="-105" y="-16" width="210" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#A78BFA" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#5B21B6" font-size="12.5" font-weight="600" letter-spacing="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+          📈 时间序列分析 &amp; 建模
+        </text>
+      </g>
+      <!-- Badge 3 -->
+      <g transform="translate(230, 0)">
+        <rect x="-105" y="-16" width="210" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#FBA6B9" stroke-width="1.2"/>
+        <text x="0" y="5" fill="#9D174D" font-size="12.5" font-weight="600" letter-spacing="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+          🦀 Rust 学习与开发
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
